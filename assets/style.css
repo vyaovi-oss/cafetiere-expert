@@ -1,0 +1,134 @@
+/* ==========================================================
+   Cafetière Expert — feuille de style principale
+   ========================================================== */
+:root {
+  --cafe: #3b2416;        /* brun café (titres, header) */
+  --cafe-clair: #6f4e37;
+  --creme: #faf6f1;       /* fond général */
+  --mousse: #f1e6d8;      /* fonds de cartes */
+  --texte: #2b2118;
+  --texte-doux: #6b5d52;
+  --accent: #c8702a;      /* caramel : liens, boutons */
+  --accent-fonce: #a85a1c;
+  --amazon: #ff9900;
+  --vert: #2f7d4a;
+  --rouge: #b03a2e;
+  --bord: #e6d9c8;
+  --rayon: 12px;
+  --largeur: 1080px;
+  --lecture: 740px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--texte);
+  background: var(--creme);
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent-fonce); }
+a:hover { color: var(--cafe); }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; color: var(--cafe); line-height: 1.25; }
+h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); margin: .2em 0 .4em; }
+h2 { font-size: 1.6rem; margin-top: 2em; }
+h3 { font-size: 1.25rem; margin-top: 1.6em; }
+
+.conteneur { max-width: var(--largeur); margin: 0 auto; padding: 0 16px; }
+.lecture { max-width: var(--lecture); margin: 0 auto; padding: 0 16px; }
+
+/* ---------- En-tête ---------- */
+.entete { background: var(--cafe); color: #fff; position: sticky; top: 0; z-index: 10; }
+.entete .conteneur { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; flex-wrap: wrap; }
+.logo { color: #fff; text-decoration: none; font-family: Georgia, serif; font-size: 1.35rem; font-weight: bold; display: flex; align-items: center; gap: 8px; }
+.logo:hover { color: var(--mousse); }
+.logo span { color: #e9b77f; }
+.menu { display: flex; gap: 18px; flex-wrap: wrap; }
+.menu a { color: #f3e7da; text-decoration: none; font-size: .95rem; }
+.menu a:hover { color: #fff; text-decoration: underline; }
+.menu-bouton { display: none; background: none; border: 1px solid #8a6a52; color: #fff; border-radius: 8px; padding: 6px 12px; font-size: .95rem; cursor: pointer; }
+
+@media (max-width: 760px) {
+  .menu-bouton { display: block; }
+  .menu { display: none; width: 100%; flex-direction: column; gap: 4px; padding-bottom: 12px; }
+  .menu.ouvert { display: flex; }
+  .menu a { padding: 6px 0; }
+}
+
+/* ---------- Bandeau d'accueil ---------- */
+.hero { background: linear-gradient(135deg, #4a2d1b, #2a180e); color: #f6ece1; padding: 64px 0 56px; }
+.hero h1 { color: #fff; max-width: 720px; }
+.hero p { font-size: 1.15rem; max-width: 640px; color: #e9dccd; }
+.bouton { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 999px; font-weight: 600; }
+.bouton:hover { background: var(--accent-fonce); color: #fff; }
+
+/* ---------- Grilles de cartes ---------- */
+.section { padding: 48px 0; }
+.grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; }
+.carte { background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); padding: 20px; text-decoration: none; color: var(--texte); display: block; transition: transform .15s, box-shadow .15s; }
+a.carte:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(59,36,22,.12); color: var(--texte); }
+.carte .icone { font-size: 2rem; }
+.carte h3 { margin: .4em 0 .3em; font-size: 1.15rem; }
+.carte p { margin: 0; color: var(--texte-doux); font-size: .95rem; }
+.etiquette { display: inline-block; font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; background: var(--mousse); color: var(--cafe-clair); padding: 2px 10px; border-radius: 999px; font-weight: 600; }
+
+.liste-articles { list-style: none; padding: 0; margin: 0; }
+.liste-articles li { background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); padding: 14px 18px; margin-bottom: 10px; display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap; }
+.liste-articles .bientot { color: var(--texte-doux); }
+
+/* ---------- Article ---------- */
+.fil { font-size: .88rem; color: var(--texte-doux); margin: 24px 0 0; }
+.fil a { color: var(--texte-doux); }
+.meta { color: var(--texte-doux); font-size: .92rem; }
+.divulgation { background: var(--mousse); border-left: 4px solid var(--accent); padding: 10px 14px; font-size: .88rem; border-radius: 6px; margin: 16px 0 24px; }
+.sommaire { background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); padding: 16px 22px; margin: 24px 0; }
+.sommaire strong { font-family: Georgia, serif; color: var(--cafe); }
+.sommaire ol { margin: 8px 0 0; padding-left: 20px; }
+.article p, .article li { color: var(--texte); }
+.encadre { background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); padding: 16px 20px; margin: 24px 0; }
+.encadre.astuce { border-left: 5px solid var(--vert); }
+.encadre.attention { border-left: 5px solid var(--rouge); }
+
+/* Tableau comparatif */
+.tableau-wrap { overflow-x: auto; margin: 24px 0; border: 1px solid var(--bord); border-radius: var(--rayon); background: #fff; }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .95rem; }
+th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--bord); vertical-align: top; }
+th { background: var(--cafe); color: #fff; font-weight: 600; }
+tr:last-child td { border-bottom: none; }
+
+/* Encadré produit Amazon */
+.produit { background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); padding: 20px; margin: 28px 0; display: grid; grid-template-columns: 180px 1fr; gap: 20px; }
+.produit .visuel { background: var(--mousse); border-radius: 8px; min-height: 160px; display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+.produit h3 { margin-top: 0; }
+.produit .badge { background: var(--accent); color: #fff; font-size: .75rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; text-transform: uppercase; letter-spacing: .04em; }
+.pour-contre { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: .93rem; }
+.pour-contre ul { margin: 4px 0 0; padding-left: 18px; }
+.pour { color: var(--vert); font-weight: 700; }
+.contre { color: var(--rouge); font-weight: 700; }
+.bouton-amazon { display: inline-block; background: var(--amazon); color: #111; font-weight: 700; text-decoration: none; padding: 11px 20px; border-radius: 8px; margin-top: 12px; }
+.bouton-amazon:hover { background: #e68a00; color: #111; }
+@media (max-width: 620px) {
+  .produit { grid-template-columns: 1fr; }
+  .pour-contre { grid-template-columns: 1fr; }
+}
+
+/* FAQ */
+details { background: #fff; border: 1px solid var(--bord); border-radius: 8px; padding: 12px 16px; margin-bottom: 10px; }
+summary { cursor: pointer; font-weight: 600; color: var(--cafe); }
+
+/* ---------- Pied de page ---------- */
+.pied { background: var(--cafe); color: #d9c8b6; margin-top: 64px; padding: 40px 0 24px; font-size: .92rem; }
+.pied a { color: #f3e7da; }
+.pied .colonnes { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; }
+.pied h4 { color: #fff; margin: 0 0 8px; font-family: Georgia, serif; }
+.pied ul { list-style: none; padding: 0; margin: 0; }
+.pied li { margin-bottom: 4px; }
+.pied .mention { border-top: 1px solid #5a3f2d; margin-top: 28px; padding-top: 16px; font-size: .85rem; }
+
+.modele-alerte { background: #fff3cd; border: 2px dashed #c79a00; padding: 12px 16px; border-radius: 8px; margin: 16px 0; }
+.grille-petite { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+.grille-petite .carte { padding: 14px; }
+.grille-petite .carte h3 { font-size: 1rem; }

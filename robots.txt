@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /modeles/
+Allow: /
+
+Sitemap: https://cafetiere-expert.com/sitemap.xml
