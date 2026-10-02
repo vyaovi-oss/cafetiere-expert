@@ -205,7 +205,7 @@ shutil.copytree(RACINE / "static", SORTIE)
 
 env = Environment(loader=FileSystemLoader(RACINE / "templates"),
                   autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
-env.globals.update(site=site, categories=categories, annee=dt.date.today().year)
+env.globals.update(site=site, categories=categories, annee=dt.date.today().year, version=dt.datetime.now().strftime("%Y%m%d%H%M"))
 
 
 def ecrire(url, template, **ctx):
