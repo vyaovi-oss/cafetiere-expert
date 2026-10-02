@@ -83,7 +83,8 @@ a.carte:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(59,36,2
 .fil { font-size: .88rem; color: var(--texte-doux); margin: 24px 0 0; }
 .fil a { color: var(--texte-doux); }
 .meta { color: var(--texte-doux); font-size: .92rem; }
-.divulgation { background: var(--mousse); border-left: 4px solid var(--accent); padding: 10px 14px; font-size: .88rem; border-radius: 6px; margin: 16px 0 24px; }
+.divulgation { font-size: .82rem; color: var(--texte-doux); font-style: italic; margin: -4px 0 20px; }
+.divulgation a { color: var(--texte-doux); }
 .sommaire { background: #fff; border: 1px solid var(--bord); border-radius: var(--rayon); padding: 16px 22px; margin: 24px 0; }
 .sommaire strong { font-family: Georgia, serif; color: var(--cafe); }
 .sommaire ol { margin: 8px 0 0; padding-left: 20px; }
