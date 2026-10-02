@@ -66,8 +66,18 @@ content:
         options:
           format: yyyy-MM-dd
       - name: image
-        label: Image de couverture (facultatif)
+        label: Image de couverture (fichier, facultatif)
         type: image
+      - name: image_url
+        label: Image de couverture (adresse web, ex. Unsplash)
+        type: string
+        description: "Utilisé si aucun fichier n'est choisi ci-dessus."
+      - name: image_credit
+        label: Crédit photo (nom du photographe)
+        type: string
+      - name: image_credit_lien
+        label: Lien vers le profil du photographe
+        type: string
       - name: brouillon
         label: Brouillon (non publié)
         type: boolean
