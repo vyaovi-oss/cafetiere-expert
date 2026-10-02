@@ -1,0 +1,223 @@
+# Configuration du panel Pages CMS (https://app.pagescms.org)
+media:
+  input: static/media
+  output: /media
+
+content:
+  # ------------------------------------------------------------ ARTICLES
+  - name: articles
+    label: Articles
+    type: collection
+    path: contenu/articles
+    format: yaml-frontmatter
+    filename:
+      template: "{fields.slug}.md"
+      field: false
+    view:
+      fields: [titre, categorie, date, brouillon]
+      primary: titre
+      sort: [date, titre]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: titre
+        label: Titre de l'article (H1)
+        type: string
+        required: true
+      - name: slug
+        label: Adresse de l'article
+        type: string
+        required: true
+        pattern: ^[a-z0-9]+(-[a-z0-9]+)*$
+        description: "Minuscules et tirets, sans accent. Ex : meilleure-cafetiere-a-piston → cafetiere-expert.com/meilleure-cafetiere-a-piston/. Ne plus la changer après publication."
+      - name: titre_seo
+        label: Titre pour Google (facultatif)
+        type: string
+        description: "55 à 60 caractères avec le mot-clé principal. Si vide, le titre de l'article est utilisé."
+      - name: description
+        label: Description pour Google
+        type: text
+        required: true
+        description: "140 à 155 caractères qui donnent envie de cliquer."
+      - name: categorie
+        label: Catégorie
+        type: select
+        required: true
+        options:
+          values:
+            - { name: machines-expresso, label: Machines expresso }
+            - { name: machines-a-grain, label: Machines à grain }
+            - { name: machines-a-capsules, label: Machines à capsules }
+            - { name: cafetieres-filtre, label: Cafetières filtre }
+            - { name: cafetieres-italiennes, label: Cafetières italiennes }
+            - { name: cafetieres-a-piston, label: Cafetières à piston }
+            - { name: moulins-a-cafe, label: Moulins à café }
+            - { name: guides, label: Guide pratique (sans catégorie) }
+      - name: date
+        label: Date de publication
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: maj
+        label: Date de mise à jour
+        type: date
+        description: "Change-la à chaque mise à jour importante (Google aime le contenu à jour)."
+        options:
+          format: yyyy-MM-dd
+      - name: image
+        label: Image de couverture (facultatif)
+        type: image
+      - name: brouillon
+        label: Brouillon (non publié)
+        type: boolean
+        description: "Coche pour cacher l'article du site pendant que tu l'écris."
+      - name: intro
+        label: Introduction
+        type: text
+        description: "2 ou 3 paragraphes. Mets le mot-clé principal dans la première phrase."
+      - name: produits
+        label: Produits Amazon (pour les comparatifs)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{index}. {nom}"
+        fields:
+          - name: nom
+            label: Nom du produit
+            type: string
+            required: true
+          - name: badge
+            label: Badge (ex. Meilleur choix)
+            type: string
+          - name: lien
+            label: Lien Amazon
+            type: string
+            description: "Colle le lien Amazon du produit, ou son code ASIN (ex. B000CQ3AIW). Ton identifiant partenaire est ajouté automatiquement."
+          - name: image
+            label: Image du produit
+            type: image
+          - name: ideal_pour
+            label: Idéal pour (tableau)
+            type: string
+          - name: caracteristique
+            label: À retenir (tableau)
+            type: string
+          - name: resume
+            label: Description
+            type: text
+          - name: points_forts
+            label: Points forts
+            type: string
+            list: true
+          - name: points_faibles
+            label: Points faibles
+            type: string
+            list: true
+      - name: body
+        label: Contenu de l'article (guide d'achat, conseils, verdict…)
+        type: rich-text
+        options:
+          format: markdown
+      - name: faq
+        label: Questions fréquentes
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{question}"
+        fields:
+          - name: question
+            label: Question
+            type: string
+          - name: reponse
+            label: Réponse
+            type: text
+
+  # ------------------------------------------------------------ PAGES
+  - name: pages
+    label: Pages (À propos, Contact…)
+    type: collection
+    path: contenu/pages
+    format: yaml-frontmatter
+    view:
+      fields: [titre]
+      primary: titre
+    fields:
+      - name: titre
+        label: Titre
+        type: string
+        required: true
+      - name: description
+        label: Description pour Google
+        type: text
+      - name: body
+        label: Contenu
+        type: rich-text
+        options:
+          format: markdown
+
+  # ------------------------------------------------------------ CATÉGORIES
+  - name: categories
+    label: Catégories
+    type: file
+    path: contenu/categories.json
+    fields:
+      - name: categories
+        label: Catégories
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{icone} {nom}"
+        fields:
+          - name: slug
+            label: Adresse (ne pas modifier)
+            type: string
+            readonly: true
+          - name: nom
+            label: Nom
+            type: string
+          - name: icone
+            label: Icône (emoji)
+            type: string
+          - name: accroche
+            label: Phrase d'accroche
+            type: string
+          - name: intro
+            label: Texte d'introduction
+            type: text
+          - name: prevus
+            label: Articles prévus (affichés « Bientôt »)
+            type: string
+            list: true
+
+  # ------------------------------------------------------------ RÉGLAGES
+  - name: reglages
+    label: Réglages du site
+    type: file
+    path: contenu/site.json
+    fields:
+      - name: nom
+        label: Nom du site
+        type: string
+      - name: url
+        label: Adresse du site
+        type: string
+      - name: description
+        label: Description du site
+        type: text
+      - name: auteur
+        label: Auteur
+        type: string
+      - name: email
+        label: Email de contact
+        type: string
+      - name: tag_amazon
+        label: Identifiant Partenaires Amazon
+        type: string
+        description: "Ex. cafetiereexp-21. Il est ajouté automatiquement à tous les liens Amazon du site."
+      - name: divulgation
+        label: Phrase obligatoire Amazon
+        type: text
