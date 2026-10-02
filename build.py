@@ -65,6 +65,13 @@ def date_fr(d):
     return f"{jour} {MOIS[d.month - 1]} {d.year}"
 
 
+def en_texte(x):
+    """Un point écrit « Texte : suite » sans guillemets devient un dictionnaire en YAML : on le remet en texte."""
+    if isinstance(x, dict):
+        return " ; ".join(f"{k} : {v}" if v is not None else str(k) for k, v in x.items())
+    return str(x)
+
+
 def slugifier(texte):
     import unicodedata
     t = unicodedata.normalize("NFKD", str(texte)).encode("ascii", "ignore").decode()
@@ -164,8 +171,8 @@ for f in sorted((CONTENU / "articles").glob("*.md")):
     d["intro_html"] = rendre_md(d.get("intro") or "")[0]
     for p in d.get("produits") or []:
         p["lien_final"] = lien_amazon(p.get("lien") or p.get("nom"), tag)
-        p["points_forts"] = [x for x in (p.get("points_forts") or []) if x]
-        p["points_faibles"] = [x for x in (p.get("points_faibles") or []) if x]
+        p["points_forts"] = [en_texte(x) for x in (p.get("points_forts") or []) if x]
+        p["points_faibles"] = [en_texte(x) for x in (p.get("points_faibles") or []) if x]
     d["produits"] = d.get("produits") or []
     d["faq"] = [q for q in (d.get("faq") or []) if q.get("question")]
     for q in d["faq"]:

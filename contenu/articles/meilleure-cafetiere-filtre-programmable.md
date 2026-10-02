@@ -26,7 +26,7 @@ produits:
       - Grande capacité
       - Système anti-goutte
     points_faibles:
-      - Verseuse en verre : le café se garde moins longtemps
+      - "Verseuse en verre : le café se garde moins longtemps"
       - Plaque chauffante qui peut « cuire » le café si on attend trop
   - nom: Philips cafetière filtre isotherme programmable
     badge: Meilleure isotherme

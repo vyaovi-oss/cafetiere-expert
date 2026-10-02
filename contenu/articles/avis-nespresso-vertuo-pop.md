@@ -24,7 +24,7 @@ produits:
       - Prix d'entrée de gamme Vertuo
       - De l'espresso au grand mug avec une seule machine
       - Format compact, plusieurs couleurs
-      - Ultra simple : un seul bouton
+      - "Ultra simple : un seul bouton"
     points_faibles:
       - Capsules Vertuo officielles uniquement
       - Petit réservoir de 0,6 L
