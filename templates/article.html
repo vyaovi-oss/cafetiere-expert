@@ -22,6 +22,7 @@
 {% endblock %}
 
 {% block contenu %}
+{% set multi = a.produits|length > 1 %}
 <article class="lecture article">
   <p class="fil"><a href="/">Accueil</a> ›
     {% if a.cat %}<a href="/{{ a.cat.slug }}/">{{ a.cat.nom }}</a>{% else %}<a href="/guides/">Guides</a>{% endif %}</p>
@@ -32,7 +33,7 @@
 
   {{ a.intro_html|safe }}
 
-  {% if a.produits %}
+  {% if multi %}
   <div class="encadre astuce"><strong>Notre sélection en bref :</strong>
     <ul>{% for p in a.produits %}<li>{% if p.badge %}<strong>{{ p.badge }} :</strong> {% endif %}<a href="#produit-{{ loop.index }}">{{ p.nom }}</a></li>{% endfor %}</ul>
   </div>
@@ -40,13 +41,14 @@
 
   {% if a.sommaire|length > 2 %}
   <nav class="sommaire"><strong>Sommaire</strong><ol>
-    {% if a.produits %}<li><a href="#comparatif">Tableau comparatif</a></li><li><a href="#selection">Notre sélection détaillée</a></li>{% endif %}
+    {% if multi %}<li><a href="#comparatif">Tableau comparatif</a></li><li><a href="#selection">Notre sélection détaillée</a></li>{% elif a.produits %}<li><a href="#selection">Notre avis en bref</a></li>{% endif %}
     {% for id, nom in a.sommaire %}<li><a href="#{{ id }}">{{ nom }}</a></li>{% endfor %}
     {% if a.faq %}<li><a href="#faq">Questions fréquentes</a></li>{% endif %}
   </ol></nav>
   {% endif %}
 
   {% if a.produits %}
+  {% if multi %}
   <h2 id="comparatif">Tableau comparatif</h2>
   <div class="tableau-wrap"><table>
     <thead><tr><th>Modèle</th><th>Idéal pour</th><th>À retenir</th><th>Prix</th></tr></thead>
@@ -59,12 +61,15 @@
   </table></div>
 
   <h2 id="selection">Notre sélection détaillée</h2>
+  {% else %}
+  <h2 id="selection">Notre avis en bref</h2>
+  {% endif %}
   {% for p in a.produits %}
   <div class="produit" id="produit-{{ loop.index }}">
     <div class="visuel">{% if p.image %}<img src="{{ p.image }}" alt="{{ p.nom }}" loading="lazy">{% else %}☕{% endif %}</div>
     <div>
       {% if p.badge %}<span class="badge">{{ p.badge }}</span>{% endif %}
-      <h3>{{ loop.index }}. {{ p.nom }}</h3>
+      <h3>{% if multi %}{{ loop.index }}. {% endif %}{{ p.nom }}</h3>
       <p>{{ p.resume }}</p>
       {% if p.points_forts or p.points_faibles %}
       <div class="pour-contre">
