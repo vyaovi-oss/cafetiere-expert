@@ -4,7 +4,7 @@ description: Qui se cache derrière Cafetière Expert et comment nous choisisson
 ---
 Bienvenue sur **Cafetière Expert** ! Je m'appelle Victor, et j'ai créé ce site pour aider les amateurs de café à s'y retrouver parmi les centaines de cafetières disponibles.
 
-[Ajoute ici 2 ou 3 phrases personnelles : ta relation au café, ce qui t'a donné envie de créer le site.]
+Choisir une cafetière n'est pas si simple : italienne, à piston, à capsules, à grain… chaque méthode a ses avantages, ses défauts et son budget. Sur ce site, je partage des guides clairs et des comparatifs honnêtes pour vous aider à trouver celle qui correspond vraiment à vos habitudes.
 
 ## Notre méthode
 
