@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block titre %}{{ site.nom }} – Guides et comparatifs de cafetières {{ annee }}{% endblock %}
+{% block jsonld %}<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "WebSite", "name": site.nom, "url": site.url ~ "/", "inLanguage": "fr-FR"}|tojson }}</script>{% endblock %}
+{% block contenu %}
+<section class="hero">
+  <div class="conteneur">
+    <span class="etiquette">Guides d'achat café</span>
+    <h1>Trouvez la cafetière qui vous correspond vraiment</h1>
+    <p>Machines expresso, à grain, à capsules, cafetières italiennes ou à piston : des comparatifs clairs et des conseils simples pour bien choisir et réussir votre café à la maison.</p>
+    <a class="bouton" href="#categories">Voir les catégories</a>
+  </div>
+</section>
+<section class="section" id="categories">
+  <div class="conteneur">
+    <h2 style="margin-top:0">Choisir par type de cafetière</h2>
+    <div class="grille">
+      {% for c in categories %}<a class="carte" href="/{{ c.slug }}/"><div class="icone">{{ c.icone }}</div><h3>{{ c.nom }}</h3><p>{{ c.accroche }}</p></a>{% endfor %}
+    </div>
+  </div>
+</section>
+{% if articles %}
+<section class="section" style="padding-top:0">
+  <div class="conteneur">
+    <h2 style="margin-top:0">Derniers articles</h2>
+    <div class="grille">{% for a in articles[:6] %}{% include "_carte.html" %}{% endfor %}</div>
+    {% if articles|length > 6 %}<p><a class="bouton" href="/guides/">Voir tous les guides</a></p>{% endif %}
+  </div>
+</section>
+{% endif %}
+<section class="section" style="padding-top:0">
+  <div class="lecture">
+    <h2 style="margin-top:0">Comment nous choisissons les produits</h2>
+    <p>Pour chaque comparatif, nous analysons les caractéristiques techniques, les avis de milliers d'acheteurs, les retours de spécialistes du café et le rapport qualité-prix. Notre but : vous faire gagner du temps et vous éviter un mauvais achat.</p>
+    <p>Certains liens de ce site sont des liens affiliés : si vous achetez via ces liens, nous touchons une petite commission, <strong>sans aucun surcoût pour vous</strong>. Cela n'influence pas nos recommandations.</p>
+  </div>
+</section>
+{% endblock %}

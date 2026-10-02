@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block titre %}Tous les guides et comparatifs | {{ site.nom }}{% endblock %}
+{% block description %}Tous nos comparatifs et guides pratiques pour choisir sa cafetière, l'entretenir et réussir son café à la maison.{% endblock %}
+{% block contenu %}
+<div class="conteneur">
+  <p class="fil"><a href="/">Accueil</a> › Tous les guides</p>
+  <h1>Tous nos guides et comparatifs</h1>
+  {% if articles %}<div class="grille">{% for a in articles %}{% include "_carte.html" %}{% endfor %}</div>
+  {% else %}<p>Les premiers articles arrivent bientôt.</p>{% endif %}
+</div>
+{% endblock %}

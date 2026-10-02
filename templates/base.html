@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titre %}{{ site.nom }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
+<meta name="robots" content="{% block robots %}index, follow{% endblock %}">
+<link rel="canonical" href="{{ site.url }}{{ url_page }}">
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="{{ site.nom }}">
+<meta property="og:title" content="{{ self.titre() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ site.url }}{{ url_page }}">
+{% block og_image %}{% endblock %}
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+{% block jsonld %}{% endblock %}
+</head>
+<body>
+<header class="entete">
+  <div class="conteneur">
+    <a class="logo" href="/">☕ Cafetière <span>Expert</span></a>
+    <button class="menu-bouton" aria-label="Ouvrir le menu" onclick="document.querySelector('.menu').classList.toggle('ouvert')">Menu ☰</button>
+    <nav class="menu">
+      {% for c in categories[:5] %}<a href="/{{ c.slug }}/">{{ c.nom }}</a>{% endfor %}
+      <a href="/guides/">Tous les guides</a>
+    </nav>
+  </div>
+</header>
+<main>
+{% block contenu %}{% endblock %}
+</main>
+<footer class="pied">
+  <div class="conteneur">
+    <div class="colonnes">
+      <div><h4>☕ {{ site.nom }}</h4><p>{{ site.description }}</p></div>
+      <div><h4>Catégories</h4><ul>
+        {% for c in categories %}<li><a href="/{{ c.slug }}/">{{ c.nom }}</a></li>{% endfor %}
+      </ul></div>
+      <div><h4>Le site</h4><ul>
+        <li><a href="/guides/">Tous les guides</a></li>
+        <li><a href="/a-propos/">À propos</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+        <li><a href="/confidentialite/">Politique de confidentialité</a></li>
+      </ul></div>
+    </div>
+    <p class="mention">{{ site.divulgation }} Les prix et la disponibilité des produits peuvent changer : le prix affiché sur Amazon au moment de l'achat fait foi.<br>© {{ annee }} {{ site.nom }}</p>
+  </div>
+</footer>
+</body>
+</html>

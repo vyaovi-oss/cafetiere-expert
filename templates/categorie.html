@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block titre %}{{ cat.nom }} : guides et comparatifs {{ annee }} | {{ site.nom }}{% endblock %}
+{% block description %}{{ cat.accroche }} Comparatifs, avis et conseils pour choisir parmi les {{ cat.nom|lower }}.{% endblock %}
+{% block jsonld %}<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "CollectionPage", "name": cat.nom, "url": site.url ~ "/" ~ cat.slug ~ "/", "inLanguage": "fr-FR"}|tojson }}</script>{% endblock %}
+{% block contenu %}
+<div class="lecture">
+  <p class="fil"><a href="/">Accueil</a> › {{ cat.nom }}</p>
+  <h1>{{ cat.icone }} {{ cat.nom }} : guides et comparatifs {{ annee }}</h1>
+  <p>{{ cat.intro }}</p>
+  <h2>Nos articles</h2>
+  <ul class="liste-articles">
+    {% for a in articles %}<li><a href="{{ a.url }}">{{ a.titre }}</a><span class="etiquette">Lire</span></li>{% endfor %}
+    {% for t in prevus %}<li><span class="bientot">{{ t }}</span><span class="etiquette">Bientôt</span></li>{% endfor %}
+  </ul>
+  <div class="encadre astuce"><strong>Besoin d'entretenir votre machine ?</strong> Lisez notre guide : <a href="/comment-detartrer-machine-a-cafe/">Comment détartrer sa machine à café</a>.</div>
+</div>
+<section class="section"><div class="conteneur"><h2 style="margin-top:0">Autres types de cafetières</h2>
+  <div class="grille grille-petite">{% for c in categories if c.slug != cat.slug %}<a class="carte" href="/{{ c.slug }}/"><div class="icone">{{ c.icone }}</div><h3>{{ c.nom }}</h3></a>{% endfor %}</div>
+</div></section>
+{% endblock %}

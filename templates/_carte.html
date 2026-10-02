@@ -1,0 +1,6 @@
+<a class="carte" href="{{ a.url }}">
+  {% if a.image %}<img class="carte-img" src="{{ a.image }}" alt="" loading="lazy">{% endif %}
+  <span class="etiquette">{{ a.cat.nom if a.cat else "Guide pratique" }}</span>
+  <h3>{{ a.titre }}</h3>
+  <p>{{ a.description }}</p>
+</a>

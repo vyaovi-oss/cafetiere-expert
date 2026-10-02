@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block titre %}{{ p.titre }} | {{ site.nom }}{% endblock %}
+{% block description %}{{ p.description or p.titre }}{% endblock %}
+{% block contenu %}
+<div class="lecture article">
+  <p class="fil"><a href="/">Accueil</a> › {{ p.titre }}</p>
+  <h1>{{ p.titre }}</h1>
+  {{ p.corps|safe }}
+</div>
+{% endblock %}

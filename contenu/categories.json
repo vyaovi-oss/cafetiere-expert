@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "slug": "machines-expresso",
+      "nom": "Machines expresso",
+      "icone": "☕",
+      "accroche": "Des expressos dignes d'un café, à la maison.",
+      "intro": "Une machine expresso manuelle (avec porte-filtre) vous permet de préparer un vrai expresso et, avec une buse vapeur, des cappuccinos et des lattes. Dans cette rubrique, nous comparons les modèles pour débutants comme pour amateurs exigeants : pression, temps de chauffe, qualité de la buse vapeur, facilité d'entretien et rapport qualité-prix.",
+      "prevus": [
+        "Meilleure machine expresso à moins de 300 €",
+        "Meilleure machine expresso avec broyeur intégré",
+        "Machine expresso ou machine à grain : laquelle choisir ?"
+      ]
+    },
+    {
+      "slug": "machines-a-grain",
+      "nom": "Machines à grain",
+      "icone": "🫘",
+      "accroche": "Le café fraîchement moulu, en appuyant sur un bouton.",
+      "intro": "La machine à grain (ou « broyeur ») moud les grains juste avant l'extraction : c'est la solution la plus pratique pour boire un café frais tous les jours. Nous comparons les modèles selon la qualité du broyeur, les boissons lactées, le bruit, l'entretien et le budget.",
+      "prevus": [
+        "Meilleure machine à café à grain pour la maison",
+        "Meilleure machine à grain à moins de 500 €",
+        "Machine à grain ou machine à capsules : le vrai calcul du coût"
+      ]
+    },
+    {
+      "slug": "machines-a-capsules",
+      "nom": "Machines à capsules",
+      "icone": "🟤",
+      "accroche": "Nespresso, Dolce Gusto, Tassimo : rapide et sans effort.",
+      "intro": "Les machines à capsules sont imbattables pour la rapidité et la simplicité. Mais entre Nespresso Original, Nespresso Vertuo, Dolce Gusto et Tassimo, le coût des capsules et le choix de boissons changent tout. Nos guides vous aident à choisir le bon système.",
+      "prevus": [
+        "Nespresso Vertuo ou Original : laquelle choisir ?",
+        "Dolce Gusto ou Nespresso : le vrai comparatif",
+        "Meilleure machine Nespresso pour débuter"
+      ]
+    },
+    {
+      "slug": "cafetieres-filtre",
+      "nom": "Cafetières filtre",
+      "icone": "🫖",
+      "accroche": "Du café pour toute la famille, simplement.",
+      "intro": "La cafetière filtre reste la reine des grandes tablées. Programmable, isotherme, avec broyeur intégré : nous comparons les modèles selon la température d'infusion, la qualité de la verseuse et la facilité de nettoyage.",
+      "prevus": [
+        "Meilleure cafetière filtre programmable",
+        "Meilleure cafetière filtre isotherme",
+        "Meilleure cafetière filtre avec broyeur"
+      ]
+    },
+    {
+      "slug": "cafetieres-italiennes",
+      "nom": "Cafetières italiennes",
+      "icone": "🔥",
+      "accroche": "La moka : simple, robuste, pleine de caractère.",
+      "intro": "La cafetière italienne (ou moka) prépare un café corsé sur le feu ou sur induction. Aluminium ou inox, nombre de tasses, compatibilité induction : nos guides vous aident à choisir et à bien l'utiliser.",
+      "prevus": [
+        "Meilleure cafetière italienne pour induction",
+        "Cafetière italienne ou machine expresso : quelle différence ?",
+        "Comment utiliser une cafetière italienne (guide complet)"
+      ]
+    },
+    {
+      "slug": "cafetieres-a-piston",
+      "nom": "Cafetières à piston",
+      "icone": "🧉",
+      "accroche": "La French press, pour un café rond et aromatique.",
+      "intro": "La cafetière à piston (French press) est l'une des méthodes les plus simples pour un café riche en arômes. Verre, inox, double paroi : nous comparons les modèles et partageons nos conseils de mouture et d'infusion.",
+      "prevus": [
+        "Meilleure cafetière à piston pour débuter",
+        "Cafetière à piston ou cafetière filtre : laquelle choisir ?",
+        "Comment utiliser une cafetière à piston (guide complet)"
+      ]
+    },
+    {
+      "slug": "moulins-a-cafe",
+      "nom": "Moulins à café",
+      "icone": "⚙️",
+      "accroche": "La mouture fraîche, secret d'un bon café.",
+      "intro": "Moudre son café juste avant de le préparer change tout. Moulin manuel ou électrique, à meules ou à lames : nous comparons les modèles selon la régularité de la mouture, le bruit et le prix.",
+      "prevus": [
+        "Meilleur moulin à café à moins de 100 €",
+        "Meilleur moulin à café manuel",
+        "Moulin à meules ou à lames : quelle différence ?"
+      ]
+    }
+  ]
+}
