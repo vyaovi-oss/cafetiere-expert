@@ -6,6 +6,9 @@ description: Fréquence, produits et étapes pour détartrer votre machine à ca
 categorie: guides
 date: 2026-10-01
 maj: 2026-10-01
+image_url: "https://images.unsplash.com/photo-1778297308249-9a1b97d4aae6?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Marin huang"
+image_credit_lien: "https://unsplash.com/@marinhaung?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Votre café est moins chaud qu'avant, il coule lentement ou il a un goût amer ? Il y a de fortes chances que votre machine soit entartrée. Le calcaire contenu dans l'eau se dépose dans le circuit de chauffe à chaque utilisation. Résultat : la machine chauffe moins bien, consomme plus d'énergie et finit par tomber en panne.
 

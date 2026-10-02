@@ -134,6 +134,9 @@ summary { cursor: pointer; font-weight: 600; color: var(--cafe); }
 .grille-petite .carte { padding: 14px; }
 .grille-petite .carte h3 { font-size: 1rem; }
 .carte-img { width: calc(100% + 40px); margin: -20px -20px 14px; max-width: none; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--rayon) var(--rayon) 0 0; }
-.couverture { border-radius: var(--rayon); margin: 8px 0 24px; }
+.couverture-fig { margin: 8px 0 24px; }
+.couverture { border-radius: var(--rayon); width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.credit { font-size: .78rem; color: var(--texte-doux); margin-top: 6px; }
+.credit a { color: var(--texte-doux); }
 .produit .visuel img { max-height: 180px; width: auto; object-fit: contain; }
 .produit .visuel { background: #fff; border: 1px solid var(--bord); }

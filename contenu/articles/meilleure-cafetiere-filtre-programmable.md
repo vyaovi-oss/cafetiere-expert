@@ -6,6 +6,9 @@ description: "Réveillez-vous avec un café prêt : notre comparatif des meilleu
 categorie: cafetieres-filtre
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1500557515707-69f05f65df7d?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Jannis Brandt"
+image_credit_lien: "https://unsplash.com/@jannisbrandt?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Se réveiller avec l'odeur du café déjà prêt : c'est tout l'intérêt d'une **cafetière filtre programmable**. Vous la préparez la veille, vous réglez l'heure, et votre café coule tout seul le matin.
 

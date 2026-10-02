@@ -6,6 +6,9 @@ description: "Vertuo ou Original ? Technologie, tailles de tasses, prix des caps
 categorie: machines-a-capsules
 date: 2026-10-02
 maj: 2026-10-02
+image_url: "https://images.unsplash.com/photo-1678097539755-447a08d9b51e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Declan Sun"
+image_credit_lien: "https://unsplash.com/@declansun?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Vous voulez une machine **Nespresso**, mais vous hésitez entre la gamme **Vertuo** et la gamme **Original** ? C'est la question que se posent presque tous les acheteurs, et elle est importante : les capsules des deux systèmes **ne sont pas compatibles entre elles**. Une fois la machine achetée, vous êtes lié à un type de capsule pour des années.
 

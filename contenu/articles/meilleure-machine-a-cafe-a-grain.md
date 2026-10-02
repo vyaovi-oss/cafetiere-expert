@@ -6,6 +6,9 @@ description: "De'Longhi Magnifica Start, Philips Série 3300 LatteGo, Melitta La
 categorie: machines-a-grain
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1461988279488-1dac181a78f9?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Crew"
+image_credit_lien: "https://unsplash.com/@crew?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Une **machine à café à grain** moud les grains juste avant chaque tasse : c'est la façon la plus simple de boire un café frais et aromatique tous les jours, sans capsule et sans effort. Un bouton, et votre expresso ou votre cappuccino est prêt.
 

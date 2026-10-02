@@ -6,6 +6,9 @@ description: "De'Longhi Magnifica S, Magnifica Evo, Philips 2200 et 3200 LatteGo
 categorie: machines-a-grain
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1746596912830-18970b9e2c89?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Jakub Żerdzicki"
+image_credit_lien: "https://unsplash.com/@jakubzerdzicki?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Il y a quelques années, une bonne machine à café à grain coûtait facilement plus de 700 €. Aujourd'hui, le marché s'est démocratisé : on trouve d'excellents modèles **à moins de 500 €**, et même autour de 300 € pour les plus simples.
 

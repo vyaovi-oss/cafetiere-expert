@@ -6,6 +6,9 @@ description: "Porte-filtre ou automatique ? Goût, simplicité, budget, entretie
 categorie: machines-expresso
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1605394946910-7b21db7bfc64?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Jonathan Carroll"
+image_credit_lien: "https://unsplash.com/@jonnycarroll?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Vous voulez un vrai café à la maison, sans capsule. Deux grandes options s'offrent à vous : la **machine expresso manuelle**, à porte-filtre, comme au café, ou la **machine à grain automatique**, qui fait tout d'une simple pression.
 

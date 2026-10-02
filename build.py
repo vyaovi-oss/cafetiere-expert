@@ -157,6 +157,9 @@ for f in sorted((CONTENU / "articles").glob("*.md")):
     d["date_txt"] = date_fr(d["date"])
     d["maj_txt"] = date_fr(d["maj"])
     d["cat"] = cat_par_slug.get(d.get("categorie"))
+    cover = d.get("image") or d.get("image_url") or ""
+    d["cover"] = cover
+    d["cover_abs"] = cover if cover.startswith("http") else (site["url"] + cover if cover else "")
     d["corps"], d["sommaire"] = rendre_md(corps)
     d["intro_html"] = rendre_md(d.get("intro") or "")[0]
     for p in d.get("produits") or []:

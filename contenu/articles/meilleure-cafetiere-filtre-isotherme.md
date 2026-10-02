@@ -6,6 +6,9 @@ description: "Moccamaster KBGT, Melitta Aroma Elegance Therm, modèles avec broy
 categorie: cafetieres-filtre
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1439242088854-0c76045f4124?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Thomas Martinsen"
+image_credit_lien: "https://unsplash.com/@faceline?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Avec une cafetière filtre classique, le café reste sur une plaque chauffante et finit par « cuire » : au bout d'une heure, il devient amer. La **cafetière filtre isotherme** règle ce problème avec une verseuse à double paroi, qui garde le café chaud pendant des heures **sans le chauffer**.
 

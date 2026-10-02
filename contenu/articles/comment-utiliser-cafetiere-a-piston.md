@@ -6,6 +6,9 @@ description: "Mouture, dosage, température, temps d'infusion, nettoyage : le gu
 categorie: cafetieres-a-piston
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1669303503510-b17e5947abaa?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "cafeconcetto"
+image_credit_lien: "https://unsplash.com/@cafeconcetto?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   La **cafetière à piston** (ou French press) est l'une des méthodes les plus simples pour préparer un café riche et aromatique. Pourtant, beaucoup obtiennent un café trop amer, trop léger ou plein de dépôt au fond de la tasse.
 

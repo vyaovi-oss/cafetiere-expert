@@ -6,6 +6,9 @@ description: "Votre café est amer ? Mouture, température, temps d'infusion, ca
 categorie: guides
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1627902511858-6ad7e004fd35?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Charles Sims"
+image_credit_lien: "https://unsplash.com/@1charlessims?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Un café trop **amer**, qui accroche la gorge et laisse un arrière-goût désagréable : c'est l'un des problèmes les plus courants, quelle que soit votre cafetière. La bonne nouvelle, c'est que l'amertume a presque toujours une cause simple, et qu'elle se corrige facilement.
 

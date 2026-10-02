@@ -6,6 +6,9 @@ description: "Capsules ou café en grains : combien coûte vraiment votre café 
 categorie: machines-a-grain
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Mike Kenneally"
+image_credit_lien: "https://unsplash.com/@asthetik?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Une machine à capsules coûte peu à l'achat, une machine à grain beaucoup plus. Mais sur plusieurs années, **laquelle revient vraiment le moins cher ?** La réponse dépend surtout d'une chose : le nombre de cafés que vous buvez.
 

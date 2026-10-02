@@ -6,6 +6,9 @@ description: Bialetti Moka Express, Venus, Moka Induction, Brikka ou Alessi Pulc
 categorie: cafetieres-italiennes
 date: 2026-10-02
 maj: 2026-10-02
+image_url: "https://images.unsplash.com/photo-1638129284529-bed6d6f588e7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Thomas Murphy"
+image_credit_lien: "https://unsplash.com/@thomas_murphy?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   La cafetière italienne, ou **moka**, est l'une des façons les plus simples et les moins chères de préparer un café corsé et parfumé à la maison. Pas d'électricité, pas de capsules, presque pas d'entretien : il suffit d'eau, de café moulu et d'une source de chaleur.
 

@@ -6,6 +6,9 @@ description: "Goût, praticité, quantité, prix, entretien : notre comparatif c
 categorie: cafetieres-a-piston
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1605711529603-d3a7d001fa5e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Madalyn Cox"
+image_credit_lien: "https://unsplash.com/@madalyncox?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   **Cafetière à piston ou cafetière filtre** ? Les deux préparent un café « long », à boire en tasse ou en mug, et les deux sont économiques. Pourtant, le goût et l'usage au quotidien sont très différents.
 

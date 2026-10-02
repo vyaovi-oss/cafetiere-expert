@@ -6,6 +6,9 @@ description: "Notre avis sur la Nespresso Vertuo Pop : tailles de tasses, capsul
 categorie: machines-a-capsules
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1730026090184-adcf8452ce91?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Robert Clark"
+image_credit_lien: "https://unsplash.com/@robert_clark?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Compacte, colorée et parmi les moins chères de la gamme, la **Nespresso Vertuo Pop** est la porte d'entrée vers le système Vertuo et ses grandes tasses de café. Elle est fabriquée par De'Longhi ou Krups selon les versions.
 

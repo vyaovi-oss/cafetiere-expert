@@ -6,6 +6,9 @@ description: "Dosage, mouture, feu, première utilisation, entretien : le guide 
 categorie: cafetieres-italiennes
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1605339102319-efcb12ae4eb7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Thanos Amoutzias"
+image_credit_lien: "https://unsplash.com/@taaanos?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   La **cafetière italienne**, ou moka, est simple en apparence : de l'eau en bas, du café au milieu, et le café monte en haut. Pourtant, quelques petites erreurs suffisent à obtenir un café amer, brûlé ou trop léger.
 

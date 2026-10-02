@@ -2,7 +2,7 @@
 {% block titre %}{{ a.titre_seo or a.titre }}{% endblock %}
 {% block description %}{{ a.description }}{% endblock %}
 {% block og_type %}article{% endblock %}
-{% block og_image %}{% if a.image %}<meta property="og:image" content="{{ site.url }}{{ a.image }}">{% endif %}{% endblock %}
+{% block og_image %}{% if a.cover_abs %}<meta property="og:image" content="{{ a.cover_abs }}">{% endif %}{% endblock %}
 {% block jsonld %}
 {% set fil = [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": site.url ~ "/"}] %}
 {% if a.cat %}{% set fil = fil + [{"@type": "ListItem", "position": 2, "name": a.cat.nom, "item": site.url ~ "/" ~ a.cat.slug ~ "/"}] %}{% endif %}
@@ -28,8 +28,11 @@
     {% if a.cat %}<a href="/{{ a.cat.slug }}/">{{ a.cat.nom }}</a>{% else %}<a href="/guides/">Guides</a>{% endif %}</p>
   <h1>{{ a.titre }}</h1>
   <p class="meta">Par {{ site.auteur }} · Mis à jour le {{ a.maj_txt }} · Lecture : {{ a.lecture }} min</p>
-  {% if a.produits or 'amazon' in a.corps %}<p class="divulgation">Cet article contient des liens affiliés Amazon. {{ site.divulgation }}</p>{% endif %}
-  {% if a.image %}<img class="couverture" src="{{ a.image }}" alt="{{ a.titre }}">{% endif %}
+  {% if a.produits or 'amazon' in a.corps %}<p class="divulgation">Liens affiliés : nous touchons une commission, sans surcoût pour vous. <a href="/mentions-legales/#affiliation">En savoir plus</a></p>{% endif %}
+  {% if a.cover %}<figure class="couverture-fig">
+    <img class="couverture" src="{{ a.cover }}" alt="{{ a.titre }}">
+    {% if a.image_credit %}<figcaption class="credit">Photo : {% if a.image_credit_lien %}<a href="{{ a.image_credit_lien }}" target="_blank" rel="noopener">{{ a.image_credit }}</a>{% else %}{{ a.image_credit }}{% endif %} sur <a href="https://unsplash.com/?utm_source=cafetiere_expert&amp;utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>{% endif %}
+  </figure>{% endif %}
 
   {{ a.intro_html|safe }}
 

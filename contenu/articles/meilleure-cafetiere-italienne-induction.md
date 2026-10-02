@@ -6,6 +6,9 @@ description: "Bialetti Venus, Kitty, Moka Induction ou Alessi Pulcina : notre co
 categorie: cafetieres-italiennes
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1585683034983-b8c9d72a095a?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Elesban Landero Berriozábal"
+image_credit_lien: "https://unsplash.com/@tuxlan?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Vous avez une **plaque à induction** et vous rêvez d'un bon café à l'italienne ? Attention : la célèbre moka en aluminium ne fonctionne **pas** sur l'induction, faute de base magnétique. Il vous faut une cafetière spécialement conçue pour.
 

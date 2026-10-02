@@ -6,6 +6,9 @@ description: "Moulin à meules ou à lames, électrique ou manuel : notre sélec
 categorie: moulins-a-cafe
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1537130508299-46ab547b4be3?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Gregory Hayes"
+image_credit_lien: "https://unsplash.com/@gregoryallen?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Moudre son café juste avant de le préparer, c'est **la meilleure amélioration** que vous puissiez apporter à votre café, quelle que soit votre cafetière. Le café moulu perd très vite ses arômes : avec des grains fraîchement moulus, la différence de goût est immédiate.
 

@@ -6,6 +6,9 @@ description: "Notre avis sur la Bodum Chambord : qualité du café, tailles, mat
 categorie: cafetieres-a-piston
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1721406769891-f2ba651401d9?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Clay Banks"
+image_credit_lien: "https://unsplash.com/@claybanks?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Avec son armature en métal brillant et son couvercle en dôme, la **Bodum Chambord** est sans doute la cafetière à piston la plus reconnaissable au monde. On la voit dans les cuisines, les cafés et les films depuis des décennies.
 

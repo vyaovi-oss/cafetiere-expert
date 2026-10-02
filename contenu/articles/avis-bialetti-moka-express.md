@@ -6,6 +6,9 @@ description: "Notre avis sur la Bialetti Moka Express : qualité du café, taill
 categorie: cafetieres-italiennes
 date: 2026-10-02
 maj: 2026-10-02
+image_url: "https://images.unsplash.com/photo-1625259338799-4363b816beae?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Perry Merrity II"
+image_credit_lien: "https://unsplash.com/@prince_perry?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Avec sa forme octogonale et son petit bonhomme moustachu, la **Bialetti Moka Express** est sans doute la cafetière la plus connue au monde. Inventée en Italie en 1933, elle a fait entrer le café corsé « à l'italienne » dans des millions de cuisines.
 

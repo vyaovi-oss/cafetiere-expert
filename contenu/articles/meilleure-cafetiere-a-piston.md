@@ -6,6 +6,9 @@ description: "Bodum Chambord, Brazil, Columbia ou Espro P3 ? Notre comparatif de
 categorie: cafetieres-a-piston
 date: 2026-10-02
 maj: 2026-10-02
+image_url: "https://images.unsplash.com/photo-1639906512494-dd4a536abc4e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Sorin Gheorghita"
+image_credit_lien: "https://unsplash.com/@sxtcxtc?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   La **cafetière à piston**, aussi appelée **French press**, est sans doute la façon la plus simple de préparer un bon café à la maison. Pas d'électricité, pas de filtre en papier, pas de capsule : du café moulu, de l'eau chaude, quatre minutes d'attente… et un café rond, riche en arômes.
 

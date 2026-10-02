@@ -6,6 +6,9 @@ description: "Notre avis sur la De'Longhi Dedica EC685 : qualité de l'expresso,
 categorie: machines-expresso
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1524686788093-aa1f9c0f7c4f?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Tim St. Martin"
+image_credit_lien: "https://unsplash.com/@timeighty5?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Avec ses **15 centimètres de large**, la **De'Longhi Dedica EC685** est l'une des machines expresso les plus compactes du marché, et l'une des plus vendues. Elle promet de vrais expressos et cappuccinos à la maison, pour un prix raisonnable.
 

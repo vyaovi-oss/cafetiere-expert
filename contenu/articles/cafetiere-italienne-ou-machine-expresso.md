@@ -6,6 +6,9 @@ description: "Moka ou machine expresso ? Pression, goût, crème, prix, simplici
 categorie: cafetieres-italiennes
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1581447355317-916971180cfa?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Ashkan Forouzani"
+image_credit_lien: "https://unsplash.com/@ashkfor121?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   On l'appelle souvent « cafetière expresso », mais la **cafetière italienne** (ou moka) ne fait pas tout à fait un expresso. Elle prépare un café court et corsé, proche de l'expresso, mais avec une méthode et un résultat différents.
 

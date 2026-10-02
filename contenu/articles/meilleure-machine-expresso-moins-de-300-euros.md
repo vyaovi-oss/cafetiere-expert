@@ -6,6 +6,9 @@ description: "De'Longhi Dedica, Sage Bambino, De'Longhi Stilosa : notre sélecti
 categorie: machines-expresso
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1707241358597-bafcc8a8e73d?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Jakub Żerdzicki"
+image_credit_lien: "https://unsplash.com/@jakubzerdzicki?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Vous voulez préparer de **vrais expressos** à la maison, avec un porte-filtre comme au café, et faire mousser votre lait pour des cappuccinos ? Pas besoin de dépenser 1 000 € : il existe d'excellentes **machines expresso à moins de 300 €** pour bien débuter.
 

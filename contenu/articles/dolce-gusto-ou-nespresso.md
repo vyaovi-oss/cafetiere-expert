@@ -6,6 +6,9 @@ description: "Dolce Gusto ou Nespresso ? Café, boissons au lait, prix des machi
 categorie: machines-a-capsules
 date: 2026-10-03
 maj: 2026-10-03
+image_url: "https://images.unsplash.com/photo-1514212586585-6a0e1838e7bf?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
+image_credit: "Jisu Han"
+image_credit_lien: "https://unsplash.com/@makeitcount?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   **Dolce Gusto ou Nespresso** : ce sont les deux systèmes de machines à capsules les plus vendus en France, et ils appartiennent tous les deux au groupe Nestlé. Pourtant, ils ne visent pas du tout le même public.
 
