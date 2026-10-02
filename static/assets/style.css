@@ -140,3 +140,6 @@ summary { cursor: pointer; font-weight: 600; color: var(--cafe); }
 .credit a { color: var(--texte-doux); }
 .produit .visuel img { max-height: 180px; width: auto; object-fit: contain; }
 .produit .visuel { background: #fff; border: 1px solid var(--bord); }
+
+/* Encadré produit sans photo : le texte prend toute la largeur */
+.produit.sans-image { grid-template-columns: 1fr; border-left: 5px solid var(--accent); }
