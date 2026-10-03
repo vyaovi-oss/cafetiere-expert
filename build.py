@@ -141,7 +141,7 @@ cat_par_slug = {c["slug"]: c for c in categories}
 
 articles = []
 slugs_vus = {c["slug"] for c in categories} | {"guides", "media", "assets"}
-for f in sorted((CONTENU / "articles").glob("*.md")):
+for f in sorted((CONTENU / "articles").rglob("*.md")):
     try:
         d, corps = lire_markdown(f)
     except yaml.YAMLError as e:
@@ -185,7 +185,7 @@ for f in sorted((CONTENU / "articles").glob("*.md")):
 articles.sort(key=lambda a: a["date"], reverse=True)
 
 pages = []
-for f in sorted((CONTENU / "pages").glob("*.md")):
+for f in sorted((CONTENU / "pages").rglob("*.md")):
     d, corps = lire_markdown(f)
     d["slug"] = f.stem
     d["url"] = f"/{f.stem}/"
