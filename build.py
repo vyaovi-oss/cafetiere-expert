@@ -141,7 +141,18 @@ cat_par_slug = {c["slug"]: c for c in categories}
 
 articles = []
 slugs_vus = {c["slug"] for c in categories} | {"guides", "media", "assets"}
-for f in sorted((CONTENU / "articles").rglob("*.md")):
+COPIE = re.compile(r" \(\d+\)$")
+
+
+def ordre_fichiers(dossier):
+    """En cas de doublon, on garde en priorité la copie la plus récente téléchargée
+    (« nom (1).md ») puis le fichier le moins profondément rangé."""
+    fichiers = list(dossier.rglob("*.md"))
+    return sorted(fichiers, key=lambda f: (0 if COPIE.search(f.stem) else 1, len(f.relative_to(dossier).parts), f.name))
+
+
+avertissements = []
+for f in ordre_fichiers(CONTENU / "articles"):
     try:
         d, corps = lire_markdown(f)
     except yaml.YAMLError as e:
@@ -154,7 +165,7 @@ for f in sorted((CONTENU / "articles").rglob("*.md")):
         erreurs.append(f"{f.name} : le titre est vide")
         continue
     if slug in slugs_vus:
-        erreurs.append(f"{f.name} : l'adresse « {slug} » est déjà utilisée")
+        avertissements.append(f"{f.relative_to(CONTENU)} ignoré : doublon de « {slug} » (vous pouvez le supprimer)")
         continue
     slugs_vus.add(slug)
     d["slug"] = slug
@@ -185,12 +196,21 @@ for f in sorted((CONTENU / "articles").rglob("*.md")):
 articles.sort(key=lambda a: a["date"], reverse=True)
 
 pages = []
-for f in sorted((CONTENU / "pages").rglob("*.md")):
+pages_vues = set()
+for f in ordre_fichiers(CONTENU / "pages"):
     d, corps = lire_markdown(f)
-    d["slug"] = f.stem
-    d["url"] = f"/{f.stem}/"
+    stem = COPIE.sub("", f.stem)
+    if stem in pages_vues:
+        avertissements.append(f"{f.relative_to(CONTENU)} ignoré : doublon de la page « {stem} » (vous pouvez le supprimer)")
+        continue
+    pages_vues.add(stem)
+    d["slug"] = stem
+    d["url"] = f"/{stem}/"
     d["corps"] = rendre_md(corps)[0]
     pages.append(d)
+
+for a in avertissements:
+    print("⚠️ ", a)
 
 if erreurs:
     print("❌ Le site n'a pas été construit :")
