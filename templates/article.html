@@ -28,7 +28,7 @@
     {% if a.cat %}<a href="/{{ a.cat.slug }}/">{{ a.cat.nom }}</a>{% else %}<a href="/guides/">Guides</a>{% endif %}</p>
   <h1>{{ a.titre }}</h1>
   <p class="meta">Par {{ site.auteur }} · Mis à jour le {{ a.maj_txt }} · Lecture : {{ a.lecture }} min</p>
-  {% if a.produits or 'amazon' in a.corps %}<p class="divulgation">Liens affiliés : nous touchons une commission, sans surcoût pour vous. <a href="/mentions-legales/#affiliation">En savoir plus</a></p>{% endif %}
+  {% if a.produits or 'amazon' in a.corps %}<p class="divulgation">Liens affiliés : nous touchons une commission, sans surcoût pour vous. <a href="/mentions-legales/#affiliation">En savoir plus</a> · <a href="/notre-methode/">Comment nous choisissons</a></p>{% endif %}
   {% if a.cover %}<figure class="couverture-fig">
     <img class="couverture" src="{{ a.cover }}" alt="{{ a.titre }}">
     {% if a.image_credit %}<figcaption class="credit">Photo : {% if a.image_credit_lien %}<a href="{{ a.image_credit_lien }}" target="_blank" rel="noopener">{{ a.image_credit }}</a>{% else %}{{ a.image_credit }}{% endif %} sur <a href="https://unsplash.com/?utm_source=cafetiere_expert&amp;utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>{% endif %}
