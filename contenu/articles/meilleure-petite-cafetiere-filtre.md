@@ -1,20 +1,20 @@
 ---
-titre: "Meilleure petite cafetière filtre (1 à 6 tasses)"
-titre_seo: "Meilleure petite cafetière filtre : 1 à 6 tasses, pour une ou deux personnes (2026)"
+titre: "Meilleure petite cafetière : notre sélection (1 à 6 tasses)"
+titre_seo: "Petite cafetière 2026 : les meilleures pour 1 ou 2 personnes (filtre 4 tasses, italienne, piston)"
 slug: meilleure-petite-cafetiere-filtre
-description: "Vous vivez seul ou à deux ? Notre sélection des meilleures petites cafetières filtre (1 à 6 tasses) et des solutions une tasse pour un café filtre frais sans gaspillage."
+description: "Quelle petite cafetière choisir quand on vit seul ou à deux ? Petite cafetière filtre 4 tasses, une tasse, italienne, à piston ou à capsules : notre sélection pour un café frais sans gaspillage."
 categorie: cafetieres-filtre
 date: 2026-10-07
-maj: 2026-10-07
+maj: 2026-11-01
 image_url: "https://images.unsplash.com/photo-1576767540979-8d0de64942f7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
 image_credit: "Matt Hoffman"
 image_credit_lien: "https://unsplash.com/@__matthoffman__?utm_source=cafetiere_expert&utm_medium=referral"
 intro: |-
   Vous vivez **seul ou à deux**, ou vous avez une **petite cuisine** ? Une grande cafetière de 10 ou 12 tasses n'a pas beaucoup de sens : elle prend de la place, et on finit souvent par jeter du café.
 
-  Voici notre sélection des **meilleures petites cafetières filtre**, de 1 à 6 tasses, pour un café frais sans gaspillage, choisies selon leurs caractéristiques, leur réputation et les avis d'acheteurs.
+  Voici notre sélection des **meilleures petites cafetières**, de 1 à 6 tasses : **petite cafetière filtre**, solutions une tasse, mais aussi petite cafetière italienne, à piston ou à capsules. Elles sont choisies selon leurs caractéristiques, leur réputation et les avis d'acheteurs.
 produits:
-  - nom: Petite cafetière filtre 4 à 6 tasses
+  - nom: Petite cafetière filtre 4 tasses (ou 6 tasses)
     badge: Le plus pratique
     lien: petite cafetière filtre 6 tasses
     ideal_pour: Une ou deux personnes
@@ -50,6 +50,31 @@ produits:
       - Ne prend aucune place
     points_faibles:
       - Il faut verser l'eau à la main
+  - nom: Bialetti Moka Express 2 ou 3 tasses
+    badge: Petite cafetière italienne
+    lien: Bialetti Moka Express 3 tasses
+    ideal_pour: Un café corsé pour une personne
+    caracteristique: Cafetière italienne, existe en très petites tailles
+    resume: "En version 2 ou 3 tasses (tasses à expresso), la Moka Express est l'une des plus petites cafetières qui existent : elle se range partout et prépare un café corsé en quelques minutes. Attention, la version classique en aluminium ne fonctionne pas sur l'induction."
+    points_forts:
+      - Minuscule et très bon marché
+      - Café corsé
+    points_faibles:
+      - Pas compatible induction (version classique)
+      - Café plus serré qu'un café filtre
+  - nom: Bodum Chambord 3 tasses (0,35 L)
+    badge: Petite cafetière à piston
+    lien: Bodum Chambord 3 tasses
+    ideal_pour: Un mug de café rond et parfumé
+    caracteristique: Cafetière à piston, sans électricité
+    resume: "La Chambord en petite taille (0,35 L) prépare environ un grand mug ou deux petites tasses. La cafetière à piston donne un café plus corsé et plus rond que le filtre, sans électricité ni filtre papier."
+    points_forts:
+      - Très compacte
+      - Pas de filtre à acheter
+      - Café rond et aromatique
+    points_faibles:
+      - Verre fragile
+      - Un peu de dépôt possible
 faq:
   - question: Quelle taille de cafetière pour une personne ?
     reponse: "Pour une personne, une cafetière de 2 à 4 tasses ou une solution une tasse (porte-filtre, Cup-One) suffit. Pour deux personnes, 4 à 6 tasses."
@@ -57,7 +82,23 @@ faq:
     reponse: "C'est possible, mais souvent moins bon : avec très peu d'eau, l'infusion est mal répartie. Certaines cafetières ont un réglage « petites quantités » pour corriger cela."
   - question: Combien de café pour 2 tasses ?
     reponse: "Comptez environ 18 g de café moulu pour 300 ml d'eau, soit deux tasses de 150 ml. Ajustez selon vos goûts."
+  - question: Quelle petite cafetière pour une personne seule ?
+    reponse: "Si vous aimez le café filtre, une petite cafetière de 2 à 4 tasses ou un porte-filtre une tasse comme le Hario V60. Si vous préférez un café plus corsé, une petite cafetière italienne ou à piston. Pour la simplicité, une petite machine à capsules."
+  - question: Combien de café dans une petite cafetière filtre 4 tasses ?
+    reponse: "Comptez environ 36 g de café moulu pour 600 ml d'eau (4 tasses de 150 ml). Pour 2 tasses dans la même cafetière, environ 18 g pour 300 ml."
+  - question: Quelle est la plus petite cafetière ?
+    reponse: "Les plus petites sont les cafetières italiennes 1 ou 2 tasses et les porte-filtres une tasse comme le Hario V60, qui ne prennent presque aucune place."
 ---
+## Notre sélection en un coup d'œil
+
+| Cafetière | Type | Capacité | Pour qui ? |
+|---|---|---|---|
+| **Petite cafetière filtre** | Filtre électrique | 4 à 6 tasses | Une ou deux personnes |
+| **Moccamaster Cup-One** | Filtre électrique | 1 tasse | Haut de gamme |
+| **Hario V60** | Filtre manuel | 1 tasse | Le moins cher |
+| **Bialetti Moka Express** | Italienne | 2 ou 3 tasses à expresso | Café corsé |
+| **Bodum Chambord 0,35 L** | À piston | 1 mug | Café rond, sans électricité |
+
 ## Pourquoi choisir une petite cafetière filtre ?
 
 - **Pas de gaspillage** : vous préparez juste ce que vous buvez.
@@ -73,6 +114,13 @@ faq:
 | Seul, plusieurs tasses | 2 à 4 tasses |
 | Deux personnes | 4 à 6 tasses |
 | Famille ou invités | 8 tasses et plus : voir la [meilleure cafetière programmable](/meilleure-cafetiere-filtre-programmable/) |
+
+## Petite cafetière : filtre, italienne, piston ou capsules ?
+
+- **Filtre** : un café doux et léger, à boire en grande tasse. Le plus simple pour 2 à 4 tasses.
+- **Italienne (moka)** : un café corsé, proche de l'expresso, dans un tout petit format. Voir [comment utiliser une cafetière italienne](/comment-utiliser-cafetiere-italienne/).
+- **À piston** : un café rond et parfumé, sans filtre ni électricité. Voir notre [avis sur la Bodum Chambord](/avis-bodum-chambord/) et [cafetière à piston ou filtre](/cafetiere-a-piston-ou-filtre/).
+- **Capsules** : la plus simple, une tasse à la fois, mais plus chère par tasse. Voir notre [avis sur la Nespresso Essenza Mini](/avis-nespresso-essenza-mini/), l'une des plus petites machines Nespresso.
 
 ## Les critères à vérifier
 
@@ -93,6 +141,6 @@ Tous nos conseils : [comment faire un bon café filtre](/comment-faire-un-bon-ca
 
 ## Notre verdict
 
-Pour **une ou deux personnes**, une **petite cafetière filtre de 4 à 6 tasses** est le choix le plus pratique. Pour **une seule tasse**, le **Hario V60** est imbattable à petit prix, et la **Moccamaster Cup-One** est la référence haut de gamme.
+Pour **une ou deux personnes**, une **petite cafetière filtre de 4 à 6 tasses** est le choix le plus pratique. Pour **une seule tasse**, le **Hario V60** est imbattable à petit prix, et la **Moccamaster Cup-One** est la référence haut de gamme. Vous préférez un café plus corsé ? Une **petite Bialetti Moka Express** ou une **Bodum Chambord 0,35 L** prennent encore moins de place.
 
 Votre budget est serré ? Voir la [meilleure cafetière filtre pas chère](/meilleure-cafetiere-filtre-pas-chere/).
