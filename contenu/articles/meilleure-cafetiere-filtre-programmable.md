@@ -5,10 +5,11 @@ slug: meilleure-cafetiere-filtre-programmable
 description: "Cafetière programmable : notre comparatif des meilleurs modèles (filtre classique, isotherme, avec broyeur), comment la programmer et comment bien choisir pour un café prêt au réveil."
 categorie: cafetieres-filtre
 date: 2026-10-03
-maj: 2026-10-06
+maj: 2026-11-13
 image_url: "https://images.unsplash.com/photo-1500557515707-69f05f65df7d?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
 image_credit: "Jannis Brandt"
 image_credit_lien: "https://unsplash.com/@jannisbrandt?utm_source=cafetiere_expert&utm_medium=referral"
+en_bref: "La Melitta Aroma Elegance est notre premier choix de cafetière programmable : café aromatique, intensité réglable et version isotherme disponible. Pour un café fraîchement moulu prêt au réveil, choisissez la Melitta AromaFresh, avec broyeur intégré. Pour un petit budget, la Moulinex Subito programmable fait très bien le travail. Si vous buvez votre café sur toute la matinée, préférez une version isotherme."
 intro: |-
   Se réveiller avec l'odeur du café déjà prêt : c'est tout l'intérêt d'une **cafetière programmable**. Vous la préparez la veille, vous réglez l'heure, et votre café coule tout seul le matin.
 
@@ -139,6 +140,18 @@ Avec une cafetière programmable classique, le café moulu passe la nuit dans le
 - **système anti-goutte** : pour se servir avant la fin de l'écoulement ;
 - **filtre permanent** : plus économique et écologique ;
 - **arrêt automatique** : pour la sécurité et les économies d'énergie.
+
+## Les erreurs à éviter avec une cafetière programmable
+
+- **Oublier de remplir le réservoir à grains** sur une cafetière à broyeur : vérifiez-le le soir, sinon le café ne sera pas prêt au réveil.
+- **Laisser le café moulu à l'air toute la nuit** dans une cafetière classique : il perd une partie de ses arômes. Gardez le paquet bien fermé et préparez le filtre juste avant de dormir.
+- **Oublier de régler l'horloge** après une coupure de courant : la programmation ne se déclenchera pas.
+- **Choisir une verseuse en verre** si le café reste plus d'une heure sur la plaque : il devient amer. Préférez une [cafetière isotherme](/meilleure-cafetiere-filtre-isotherme/).
+- **Doser à l'œil** : pour un café régulier, comptez environ 60 g par litre. Voir [combien de café par tasse](/combien-de-cafe-par-tasse/).
+
+## Cafetière programmable ou machine à café programmable ?
+
+On parle souvent de « machine à café programmable » pour désigner une **cafetière filtre programmable**. Les machines expresso et à grain, elles, sont rarement programmables pour un démarrage automatique : certaines proposent seulement un préchauffage ou une mise en marche à heure fixe. Si votre priorité est d'avoir **plusieurs tasses prêtes au réveil**, la cafetière filtre programmable reste la meilleure solution. Pour un expresso ou un cappuccino, voir plutôt la [meilleure machine à café à grain](/meilleure-machine-a-cafe-a-grain/).
 
 ## Bien utiliser sa cafetière filtre
 
