@@ -5,10 +5,11 @@ slug: nespresso-vertuo-ou-original
 description: "Vertuo ou Original ? Technologie, tailles de tasses, prix des capsules, compatibles : notre comparatif clair pour choisir la bonne machine Nespresso."
 categorie: machines-a-capsules
 date: 2026-10-02
-maj: 2026-10-02
+maj: 2026-11-13
 image_url: "https://images.unsplash.com/photo-1678097539755-447a08d9b51e?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
 image_credit: "Declan Sun"
 image_credit_lien: "https://unsplash.com/@declansun?utm_source=cafetiere_expert&utm_medium=referral"
+en_bref: "Choisissez Nespresso Original si vous buvez surtout des expressos et voulez payer moins cher vos capsules, grâce aux nombreuses capsules compatibles. Choisissez Nespresso Vertuo si vous buvez surtout du café en grande tasse ou en mug et aimez une crème généreuse, en acceptant d'acheter presque uniquement des capsules Nespresso. Les capsules des deux systèmes ne sont pas compatibles entre elles."
 intro: |-
   Vous voulez une machine **Nespresso**, mais vous hésitez entre la gamme **Vertuo** et la gamme **Original** ? C'est la question que se posent presque tous les acheteurs, et elle est importante : les capsules des deux systèmes **ne sont pas compatibles entre elles**. Une fois la machine achetée, vous êtes lié à un type de capsule pour des années.
 
@@ -108,7 +109,26 @@ Les deux gammes proposent un large choix de cafés chez Nespresso. Mais la gamme
 
 ## Et pour les boissons au lait ?
 
-Les deux gammes proposent des machines avec mousseur à lait intégré ou vendu avec un accessoire (Aeroccino). Pour les cappuccinos et les lattes, les deux systèmes conviennent : choisissez d'abord selon la taille de tasse et le budget capsules.
+Les deux gammes proposent des machines avec mousseur à lait intégré ou vendu avec un accessoire (Aeroccino). Pour les cappuccinos et les lattes, les deux systèmes conviennent : choisissez d'abord selon la taille de tasse et le budget capsules. Voir aussi la [meilleure machine à café pour cappuccino](/meilleure-machine-a-cafe-cappuccino/) et notre comparatif de la [gamme Nespresso Vertuo](/meilleure-machine-nespresso-vertuo/).
+
+## Le test en 3 questions
+
+Répondez à ces 3 questions pour savoir quelle gamme vous convient :
+
+| Question | Si oui… |
+|---|---|
+| Buvez-vous surtout des **expressos** ou des petits cafés ? | **Original** |
+| Buvez-vous surtout du café en **grande tasse ou en mug** ? | **Vertuo** |
+| Voulez-vous pouvoir acheter des **capsules compatibles moins chères** en supermarché ? | **Original** |
+
+Si vous avez répondu « Original » au moins deux fois, c'est la bonne gamme pour vous. Sinon, choisissez Vertuo.
+
+## Les erreurs à éviter
+
+- **Acheter des capsules avant de vérifier le système** : les capsules Original ne rentrent pas dans une Vertuo, et inversement.
+- **Choisir une Vertuo pour économiser** : il n'existe presque pas de capsules compatibles Vertuo, le coût par tasse est donc plus élevé.
+- **Choisir une Original pour boire des mugs** : elle prépare surtout des tasses courtes ; pour un grand café, il faut lancer deux capsules ou rallonger avec de l'eau.
+- **Oublier le coût sur la durée** : le prix des capsules compte bien plus que celui de la machine. Voir notre calcul du coût par tasse dans la [meilleure machine à café pas chère](/meilleure-machine-a-cafe-pas-chere/).
 
 ## Notre verdict : laquelle choisir ?
 

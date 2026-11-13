@@ -5,10 +5,11 @@ slug: meilleure-petite-cafetiere-filtre
 description: "Quelle petite cafetière choisir quand on vit seul ou à deux ? Petite cafetière filtre 4 tasses, une tasse, italienne, à piston ou à capsules : notre sélection pour un café frais sans gaspillage."
 categorie: cafetieres-filtre
 date: 2026-10-07
-maj: 2026-11-01
+maj: 2026-11-13
 image_url: "https://images.unsplash.com/photo-1576767540979-8d0de64942f7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
 image_credit: "Matt Hoffman"
 image_credit_lien: "https://unsplash.com/@__matthoffman__?utm_source=cafetiere_expert&utm_medium=referral"
+en_bref: "Pour une ou deux personnes, une petite cafetière filtre de 4 à 6 tasses est le choix le plus pratique. Pour une seule tasse, le porte-filtre Hario V60 est le moins cher et la Moccamaster Cup-One la référence haut de gamme. Pour un café plus corsé dans un tout petit format, choisissez une Bialetti Moka Express 2 ou 3 tasses ou une Bodum Chambord 0,35 L."
 intro: |-
   Vous vivez **seul ou à deux**, ou vous avez une **petite cuisine** ? Une grande cafetière de 10 ou 12 tasses n'a pas beaucoup de sens : elle prend de la place, et on finit souvent par jeter du café.
 
@@ -128,6 +129,14 @@ faq:
 - **Système anti-goutte** : pour se servir avant la fin.
 - **Filtre permanent ou papier** : voir [filtre papier ou filtre permanent](/filtre-papier-ou-filtre-permanent/).
 - **Programmation** : rare sur les petits modèles, mais elle existe.
+
+## Les erreurs à éviter avec une petite cafetière
+
+- **Confondre les « tasses »** : sur une cafetière italienne, une « tasse » est une **tasse à expresso** (environ 50 ml). Une moka « 3 tasses » remplit donc à peine un mug.
+- **Faire une seule tasse dans une grande cafetière filtre** : avec très peu d'eau, l'infusion est mal répartie et le café est souvent fade.
+- **Oublier l'induction** : la Moka Express classique en aluminium ne fonctionne pas sur l'induction, et les toutes petites cafetières peuvent ne pas être détectées par la plaque. Voir la [meilleure cafetière italienne pour induction](/meilleure-cafetiere-italienne-induction/).
+- **Négliger l'arrêt automatique** sur une petite cafetière filtre électrique : c'est une sécurité indispensable.
+- **Doser « à l'œil »** : en petite quantité, quelques grammes de trop ou de moins changent beaucoup le goût. Voir [combien de café par tasse](/combien-de-cafe-par-tasse/).
 
 ## Le bon dosage en petite quantité
 

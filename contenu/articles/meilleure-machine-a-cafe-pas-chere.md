@@ -5,10 +5,11 @@ slug: meilleure-machine-a-cafe-pas-chere
 description: "Quelle machine à café pas chère choisir ? Capsules, machine expresso pas chère, filtre, moka ou grain d'entrée de gamme : notre sélection, le vrai coût par tasse et nos conseils pour payer moins cher."
 categorie: guides
 date: 2026-10-03
-maj: 2026-11-01
+maj: 2026-11-13
 image_url: "https://images.unsplash.com/photo-1769326541255-c6612ab334a0?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
 image_credit: "Puscas Adryan"
 image_credit_lien: "https://unsplash.com/@adryan_studio?utm_source=cafetiere_expert&utm_medium=referral"
+en_bref: "La machine à café la moins chère à l'achat et à l'usage est la cafetière italienne Bialetti Moka Express. Pour de vrais expressos à petit prix, choisissez la De'Longhi Stilosa ; pour la simplicité des capsules, la Nespresso Essenza Mini avec des capsules compatibles ; pour plusieurs tasses par jour, une cafetière filtre comme la Moulinex Subito. Si vous buvez beaucoup de café, une machine à grain d'entrée de gamme devient vite plus économique."
 intro: |-
   Vous cherchez une **machine à café pas chère**, mais qui fait quand même un bon café ? Bonne nouvelle : il existe d'excellents modèles à petit prix, quel que soit votre style de café.
 
@@ -116,6 +117,30 @@ Une machine à capsules à petit prix peut sembler une bonne affaire… jusqu'au
 | Machine à grain | Plus élevé | Bas |
 
 Pour un calcul précis, lisez [machine à grain ou machine à capsules : le vrai calcul du coût](/machine-a-grain-ou-capsules-cout/).
+
+## Comment calculer le coût par tasse
+
+Le prix d'une machine ne dit pas tout : ce qui compte sur la durée, c'est le **coût de chaque tasse**. Le calcul est simple :
+
+1. Prenez le **prix du paquet** de café (ou de la boîte de capsules).
+2. Divisez-le par le **nombre de tasses** qu'il permet de préparer.
+
+**Exemple de calcul** (avec des prix arrondis, à remplacer par les prix du moment) :
+
+| | Café moulu ou en grains | Capsules |
+|---|---|---|
+| Prix | 10 € le paquet de 1 kg | 4 € la boîte de 10 |
+| Nombre de tasses | environ 110 tasses (9 g par tasse) | 10 tasses |
+| Coût par tasse | environ **0,09 €** | environ **0,40 €** |
+
+À raison de 3 cafés par jour, l'écart dépasse vite **plusieurs centaines d'euros par an**. C'est pour cela qu'une machine pas chère à capsules peut finir par coûter plus cher qu'une machine à grain. Pour le dosage exact, voir [combien de café par tasse](/combien-de-cafe-par-tasse/).
+
+## Les erreurs à éviter
+
+- **Choisir uniquement sur le prix d'achat**, sans regarder le coût des capsules ou du café.
+- **Acheter une machine expresso sans moulin** si vous n'avez pas de café moulu adapté : le résultat sera décevant.
+- **Oublier la compatibilité** : une Moka Express classique ne fonctionne pas sur l'induction, et les capsules Nespresso Original ne vont pas dans une Vertuo.
+- **Négliger l'entretien** : une machine pas chère bien détartrée dure bien plus longtemps.
 
 ## Machine expresso pas chère : laquelle choisir ?
 
