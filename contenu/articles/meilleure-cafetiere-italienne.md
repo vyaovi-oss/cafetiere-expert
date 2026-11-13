@@ -5,10 +5,11 @@ slug: meilleure-cafetiere-italienne
 description: Bialetti Moka Express, Venus, Moka Induction, Brikka ou Alessi Pulcina ? Notre comparatif pour choisir la meilleure cafetière italienne selon votre plaque et votre budget.
 categorie: cafetieres-italiennes
 date: 2026-10-02
-maj: 2026-10-02
+maj: 2026-11-13
 image_url: "https://images.unsplash.com/photo-1638129284529-bed6d6f588e7?ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80"
 image_credit: "Thomas Murphy"
 image_credit_lien: "https://unsplash.com/@thomas_murphy?utm_source=cafetiere_expert&utm_medium=referral"
+en_bref: "La Bialetti Moka Express reste la meilleure cafetière italienne pour la plupart des gens : simple, fiable et abordable. Sur une plaque à induction, choisissez une cafetière en inox comme la Bialetti Venus, ou la Moka Induction pour garder le look classique. Pour un café plus corsé avec de la crème, prenez la Bialetti Brikka. Attention : le nombre de « tasses » correspond à des tasses à expresso."
 intro: |-
   La cafetière italienne, ou **moka**, est l'une des façons les plus simples et les moins chères de préparer un café corsé et parfumé à la maison. Pas d'électricité, pas de capsules, presque pas d'entretien : il suffit d'eau, de café moulu et d'une source de chaleur.
 
@@ -112,6 +113,29 @@ Le nombre de « tasses » correspond à des tasses à expresso. Une moka fonctio
 
 Le joint en caoutchouc et le filtre s'usent avec le temps. Les grandes marques comme Bialetti vendent ces pièces séparément, ce qui permet de garder sa cafetière pendant des années.
 
+## Quelle taille de cafetière italienne choisir ?
+
+Une « tasse » de cafetière italienne correspond à une **tasse à expresso**, environ 50 ml. Voici les volumes approximatifs :
+
+| Taille | Volume de café (environ) | Pour qui ? |
+|---|---|---|
+| 1 tasse | 50 ml | Un expresso, une personne |
+| 2 tasses | 100 ml | Une personne, café serré |
+| 3 tasses | 150 ml | Une personne, une petite tasse |
+| 4 tasses | 200 ml | Deux personnes ou un mug |
+| 6 tasses | 300 ml | Deux à trois personnes |
+| 9 à 12 tasses | 450 à 600 ml | Famille ou invités |
+
+Les volumes exacts varient selon les marques et les modèles : vérifiez la fiche produit.
+
+## Les erreurs à éviter
+
+- **Tasser le café** dans le filtre : l'eau passe mal, le café devient amer et la pression monte trop.
+- **Remplir l'eau au-dessus de la valve** de sécurité.
+- **Laisser le café « bouillir »** sur le feu après le gargouillement : c'est la première cause d'amertume. Voir [pourquoi mon café est amer](/pourquoi-cafe-amer/).
+- **Mettre une moka en aluminium au lave-vaisselle** : elle noircit et s'abîme.
+- **Utiliser une mouture trop fine** (type expresso très fin) : préférez une mouture spéciale moka, un peu plus grosse. Voir [quel café pour cafetière italienne](/quel-cafe-pour-cafetiere-italienne/).
+
 ## Comment bien utiliser sa cafetière italienne
 
 1. **Remplissez la base d'eau** jusqu'à la valve de sécurité, jamais au-dessus. Utiliser de l'eau déjà chaude évite de « cuire » le café.
@@ -120,7 +144,7 @@ Le joint en caoutchouc et le filtre s'usent avec le temps. Les grandes marques c
 4. **Chauffez à feu moyen**, couvercle ouvert pour surveiller la montée du café.
 5. **Retirez du feu dès que le café commence à gargouiller.** C'est le secret d'un café sans amertume.
 
-Pour entretenir votre moka et éviter le calcaire, consultez notre guide : [comment détartrer sa machine à café](/comment-detartrer-machine-a-cafe/).
+Pour entretenir votre moka et éviter le calcaire, consultez notre guide : [comment détartrer sa machine à café](/comment-detartrer-machine-a-cafe/). Le guide complet : [comment utiliser une cafetière italienne](/comment-utiliser-cafetiere-italienne/).
 
 ## Notre verdict
 
