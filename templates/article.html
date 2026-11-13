@@ -34,6 +34,8 @@
     {% if a.image_credit %}<figcaption class="credit">Photo : {% if a.image_credit_lien %}<a href="{{ a.image_credit_lien }}" target="_blank" rel="noopener">{{ a.image_credit }}</a>{% else %}{{ a.image_credit }}{% endif %} sur <a href="https://unsplash.com/?utm_source=cafetiere_expert&amp;utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>{% endif %}
   </figure>{% endif %}
 
+  {% if a.en_bref %}<div class="encadre astuce en-bref"><p><strong>En bref :</strong> {{ a.en_bref }}</p></div>{% endif %}
+
   {{ a.intro_html|safe }}
 
   {% if multi %}
